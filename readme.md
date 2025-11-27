@@ -49,13 +49,6 @@ if failures:
 		print("Failed to process:", failures)
 ```
 
-## Errors and exceptions
-
--   `MediaFileParseException` — raised when the file inspection output cannot be
-    parsed into the expected JSON structure.
--   `FailedToFindRequestedLanguageException` — raised when the requested language
-    cannot be found on any audio track for the given file.
-
 ## Testing
 
 There is a small test/usage file `mkv_test.py` that demonstrates the API and
