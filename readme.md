@@ -58,7 +58,7 @@ contains simple unit tests. Run it with:
 python .\mkv_test.py
 ```
 
-## Safety and recommendations
+## NOTE
 
 -   `mkvpropedit` performs in-place edits — create backups if you need them.
 -   Test on a single file before running batch operations on an entire directory.
