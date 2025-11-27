@@ -28,6 +28,8 @@ class TrackType(Enum):
         match string.upper():
             case "AUDIO":
                 return TrackType.AUDIO
+            case "VIDEO":
+                return TrackType.VIDEO
             case "SUB":
                 return TrackType.SUB
             case _:
